@@ -1,0 +1,39 @@
+{
+    "name": "njdark",
+    "displayName": "NJDark",
+    "publisher": "GonnaDoStuff",
+    "icon": "images/icon.png",
+    "description": "A super dark blue theme for night owls. Low contrast, so it doesn't hurt your eye. WIP",
+    "version": "0.0.2",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "NJDark",
+        "NJ",
+        "Dark",
+        "Theme",
+        "Dark theme",
+        "blue",
+        "Dark blue",
+        "Dark++",
+        "Cobalt",
+        "VSCode theme",
+        "Night",
+        "Night owl",
+        "Night theme",
+        "Owl"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "NJDark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/NJDark-color-theme.json"
+            }
+        ]
+    }
+}
