@@ -2,9 +2,13 @@
     "name": "njdark",
     "displayName": "NJDark",
     "publisher": "GonnaDoStuff",
-    "icon": "images/icon.png",
-    "description": "A super dark blue theme for night owls. Low contrast, so it doesn't hurt your eye. WIP",
-    "version": "0.0.2",
+    "icon": "images/iconOwl.png",
+    "description": "A super dark blue theme for night owls. Low contrast, so it doesn't hurt your eye.",
+    "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nik1178/njdark"
+    },
     "engines": {
         "vscode": "^1.52.0"
     },
@@ -15,6 +19,7 @@
         "NJDark",
         "NJ",
         "Dark",
+        "nj dark",
         "Theme",
         "Dark theme",
         "blue",
@@ -25,7 +30,8 @@
         "Night",
         "Night owl",
         "Night theme",
-        "Owl"
+        "Owl",
+        "Obsidian"
     ],
     "contributes": {
         "themes": [
@@ -33,6 +39,11 @@
                 "label": "NJDark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/NJDark-color-theme.json"
+            },
+            {
+                "label": "NJDark Borderless",
+                "uiTheme": "vs-dark",
+                "path": "./themes/NJDark-borderless-color-theme.json"
             }
         ]
     }
