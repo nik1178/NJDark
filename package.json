@@ -1,10 +1,10 @@
 {
-    "name": "njdark",
-    "displayName": "NJDark",
-    "publisher": "GonnaDoStuff",
+    "name": "njdarkreloaded",
+    "displayName": "NJDark Reloaded",
+    "publisher": "NikJenic",
     "icon": "images/iconOwl.png",
-    "description": "A super dark blue theme for night owls. Low contrast, so it doesn't hurt your eye.",
-    "version": "0.1.0",
+    "description": "A super dark blue theme for night owls. Low contrast, so it doesn't hurt your eye. New extension due to lockout of old publisher account.",
+    "version": "0.1.1",
     "repository": {
         "type": "git",
         "url": "https://github.com/nik1178/njdark"
